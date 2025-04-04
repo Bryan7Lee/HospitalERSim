@@ -1,2 +1,2 @@
 # HospitalERSim
-Simulation using FreeRTOS wrapped with cmsis-rtos2 of a Hospital ER Room
+Simulation using FreeRTOS wrapped with cmsis-rtos2 of a Hospital ER Room. Generates patients with uniform random distribution and adds them to queues to be assigned to 1 of 3 doctors dependent on their treatment severity level. Severity level includes CRITICAL, URGENT and NON URGENT with CRITICAL being of utmost priority and NON URGENT being of the lowest. Higher priority patients get treated first.
